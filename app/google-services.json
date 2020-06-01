@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "258711484753",
+    "firebase_url": "https://coinflipt-9a5ff.firebaseio.com",
+    "project_id": "coinflipt-9a5ff",
+    "storage_bucket": "coinflipt-9a5ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258711484753:android:a54e096a3d1a009b5a7b70",
+        "android_client_info": {
+          "package_name": "com.coin.coinflipt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258711484753-b9vokioumm4s4o62onjt7fgv7tgb5feg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coin.coinflipt",
+            "certificate_hash": "5f4ac2048a1e9dd8d22f9af2c957c8f31b121dc1"
+          }
+        },
+        {
+          "client_id": "258711484753-j62pde52cvaevsik2rfdmp7lu5c24l3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3iOvByFZQ8--AQZFbfKIQwzD3f1Bq4BQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258711484753-j62pde52cvaevsik2rfdmp7lu5c24l3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

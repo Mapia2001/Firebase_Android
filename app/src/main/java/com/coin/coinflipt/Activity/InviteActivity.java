@@ -1,0 +1,23 @@
+package com.coin.coinflipt.Activity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.coin.coinflipt.R;
+
+public class InviteActivity extends AppCompatActivity {
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_invite);
+
+        Intent intent  = getIntent();
+        String partner_name = intent.getStringExtra("partner");
+
+    }
+}

@@ -1,0 +1,2 @@
+rootProject.name='Coinflipt'
+include ':app'

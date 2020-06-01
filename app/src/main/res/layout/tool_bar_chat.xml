@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_chat"
+    style="@style/ToolBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_background_toolbar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/partner_photo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/unknow_profile"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="0dp"
+                android:layout_marginLeft="10dp" />
+
+
+            <TextView
+                android:id="@+id/partner_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="7"
+                android:textColor="@color/default_inactive_color"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>
